@@ -1,5 +1,5 @@
-Name: Awa Emmanuel
-Matric Number: 23CE034385
+Name: Ogunyemi Oluwseun
+Matric Number: 23CH034209
 Machine Learning Algorithm Used: Random Forest Classifier
 Model Persistence Method: Pickle
 Live URL: https://wine-prediction-project-awa-emmanuel.onrender.com/
