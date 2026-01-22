@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wine Cultivar Prediction</title>
+</head>
+<body>
+    <h2>Wine Cultivar Prediction</h2>
+    <form action="/predict" method="post">
+
+        <input type="text" name="alcohol" placeholder="Alcohol" required><br>
+        <input type="text" name="malic_acid" placeholder="Malic Acid" required><br>
+        <input type="text" name="ash" placeholder="Ash" required><br>
+        <input type="text" name="alcalinity_of_ash" placeholder="Alcalinity of Ash" required><br>
+        <input type="text" name="magnesium" placeholder="Magnesium" required><br>
+        <input type="text" name="flavanoids" placeholder="Flavanoids" required><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+
+</body>
+</html>
